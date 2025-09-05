@@ -1,0 +1,6 @@
+Flask
+python-dotenv
+google-generativeai
+mindsdb-sdk
+requests
+gunicorn
