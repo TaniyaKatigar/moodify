@@ -1,9 +1,5 @@
 # 🎵 Moodify – AI-Powered Mood-based Playlist Generator
 
-[![Deploy on Render](https://render.com/images/deploy-to-render-button.svg)](https://render.com)
-
-🔗 **Live Demo:** [https://moodify-leyc.onrender.com](https://moodify-leyc.onrender.com)  
-
 Moodify is an AI-powered web app that generates **Spotify playlists based on your mood**.  
 It uses **Google Gemini AI** to classify emotions from text, **MindsDB** to map moods to music genres, and the **Spotify API** to create personalized playlists in real time.  
 
@@ -13,8 +9,7 @@ It uses **Google Gemini AI** to classify emotions from text, **MindsDB** to map 
 - 🔑 **Spotify OAuth Login** – securely connect your account  
 - 🧠 **Gemini Integration** – classifies user mood into one of 12 emotions  
 - 🎶 **MindsDB-powered Recommendations** – maps detected mood → music genre  
-- 📀 **Spotify Playlist Generator** – automatically creates a playlist and fills it with songs  
-- 🌐 **Deployed on Render** – accessible anywhere  
+- 📀 **Spotify Playlist Generator** – automatically creates a playlist and fills it with songs    
 
 ---
 
@@ -23,7 +18,6 @@ It uses **Google Gemini AI** to classify emotions from text, **MindsDB** to map 
 - **Frontend:** HTML + TailwindCSS  
 - **AI/ML:** Google Gemini API, MindsDB  
 - **Music Data:** Spotify Web API  
-- **Deployment:** Render  
 
 ---
 
