@@ -55,17 +55,17 @@ pip install -r requirements.txt
 
 ### 4. Set up Environment Variables
 Create a .env file in the root directory and add:
-# Spotify API
+### Spotify API
 SPOTIFY_CLIENT_ID=your_spotify_client_id
 SPOTIFY_CLIENT_SECRET=your_spotify_client_secret
 SPOTIFY_REDIRECT_URI=http://localhost:5000/callback
-# Gemini API
+### Gemini API
 GEMINI_API_KEY=your_gemini_api_key
-# Flask Secret
+### Flask Secret
 FLASK_SECRET_KEY=super_secret_key
-# Gemini API
+### Gemini API
 GEMINI_API_KEY=your_gemini_api_key
-# Flask Secret
+### Flask Secret
 FLASK_SECRET_KEY=super_secret_key
 
 ### 5. Run MindsDB (locally)
@@ -82,16 +82,16 @@ Go to 👉 http://127.0.0.1:5000
 
 
 ### 📸 Screenshots
-# Homepage
+### Homepage
 <img width="464" height="604" alt="ss1" src="https://github.com/user-attachments/assets/1ed0aa89-8d46-42fe-9eda-3fa0f97ab65c" />
 
-# User Input about mood
+### User Input about mood
 <img width="495" height="412" alt="ss2" src="https://github.com/user-attachments/assets/b9eff7f5-1ea5-47b8-b984-af897408d8e1" />
 
-# Mood Detection
+### Mood Detection
 <img width="414" height="281" alt="ss3" src="https://github.com/user-attachments/assets/699566eb-5e40-4e6c-81de-af9a475b0f64" />
 
-# Spotify Playlist Generation based on the mood detected
+### Spotify Playlist Generation based on the mood detected
 <img width="1278" height="605" alt="ss4" src="https://github.com/user-attachments/assets/6797dfc7-2b08-4e65-bcf2-aca71a67e7b0" />
 
 
