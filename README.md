@@ -42,6 +42,7 @@ cd moodify
 ### 2. Create a Virtual Environment
 python -m venv venv
 venv\Scripts\activate   # On Windows
+
 source venv/bin/activate  # On Mac/Linux
 
 ### 3. Install Dependencies
