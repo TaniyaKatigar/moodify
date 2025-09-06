@@ -37,11 +37,14 @@ It uses **Google Gemini AI** to classify emotions from text, **MindsDB** to map 
 
 ### 1. Clone the repository
 git clone https://github.com/your-username/moodify.git
+
 cd moodify
 
 ### 2. Create a Virtual Environment
 python -m venv venv
+
 source venv/bin/activate   # Linux/Mac
+
 venv\Scripts\activate      # Windows
 
 
