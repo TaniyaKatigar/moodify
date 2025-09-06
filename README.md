@@ -35,45 +35,70 @@ It uses **Google Gemini AI** to classify emotions from text, **MindsDB** to map 
 
 ## 🚀 Getting Started (Local Setup)
 
-### 1. Clone the repo
-git clone https://github.com/TaniyaKatigar/moodify.git
+### 1. Clone the repository
+git clone https://github.com/your-username/moodify.git
 cd moodify
 
 ### 2. Create a Virtual Environment
 python -m venv venv
-venv\Scripts\activate   # On Windows
+source venv/bin/activate   # Linux/Mac
+venv\Scripts\activate      # Windows
 
-source venv/bin/activate  # On Mac/Linux
 
-### 3. Install Dependencies
+### Install dependencies:
+
 pip install -r requirements.txt
 
-### 4. Set up Environment Variables
-Create a .env file in the root directory and add:
-### Spotify API
+### 3. Create a Spotify Developer App
+
+- Go to Spotify Developer Dashboard
+- Log in with your Spotify account.
+- Click Create an App.
+
+Fill in:
+
+- App Name: Moodify
+- App Description: Playlist generator based on mood
+- Redirect URI: http://127.0.0.1:5000/callback
+- Save the app.
+
+👉 Copy your Client ID and Client Secret from the app settings.
+
+### 4. Get a Gemini API Key
+
+- Visit Google AI Studio
+- Sign in with your Google account.
+- Generate a Gemini API key.
+- Copy the key.
+
+### 5. Configure .env File
+
+In the project root, create a file named .env with the following content (replace with your own values):
+
 SPOTIFY_CLIENT_ID=your_spotify_client_id
 SPOTIFY_CLIENT_SECRET=your_spotify_client_secret
 SPOTIFY_REDIRECT_URI=http://127.0.0.1:5000/callback
-### Gemini API
+
 GEMINI_API_KEY=your_gemini_api_key
-### Flask Secret
-FLASK_SECRET_KEY=super_secret_key
-### Gemini API
-GEMINI_API_KEY=your_gemini_api_key
-### Flask Secret
-FLASK_SECRET_KEY=super_secret_key
 
-### 5. Run MindsDB (locally)
-Make sure you have a running MindsDB instance:
+MINDSDB_HOST=http://127.0.0.1:47334
 
-docker run -p 47334:47334 mindsdb/mindsdb
+FLASK_SECRET_KEY=some_secret_key
 
-Train or connect your mood_to_genre_model in MindsDB.
+👉 You can copy from .env.template (provided in repo) and fill in your details.
 
-### 6. Start the Flask Server
+### 6. Run the App
 python app.py
 
-Go to 👉 http://127.0.0.1:5000
+The app will be available at:
+👉 http://127.0.0.1:5000
+
+### 8. Login with Spotify
+
+- Open the app in your browser.
+- Click Login with Spotify.
+- Approve permissions.
+- Enter your mood → playlist will be created in your Spotify account 🎶
 
 
 ### 📸 Screenshots
