@@ -79,7 +79,9 @@ Fill in:
 In the project root, create a file named .env with the following content (replace with your own values):
 
 SPOTIFY_CLIENT_ID=your_spotify_client_id
+
 SPOTIFY_CLIENT_SECRET=your_spotify_client_secret
+
 SPOTIFY_REDIRECT_URI=http://127.0.0.1:5000/callback
 
 GEMINI_API_KEY=your_gemini_api_key
