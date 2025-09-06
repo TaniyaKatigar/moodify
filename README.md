@@ -27,7 +27,7 @@ It uses **Google Gemini AI** to classify emotions from text, **MindsDB** to map 
 3. MindsDB → maps mood to a **genre** (e.g., *chill*).  
 4. Spotify API →  
    - Creates a private playlist for the user  
-   - Fetches 15 songs matching that genre  
+   - Fetches songs matching that genre  
    - Populates the playlist automatically  
 5. User gets a **clickable Spotify playlist link** 🎧  
 
