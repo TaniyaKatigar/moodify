@@ -36,7 +36,7 @@ It uses **Google Gemini AI** to classify emotions from text, **MindsDB** to map 
 ## 🚀 Getting Started (Local Setup)
 
 ### 1. Clone the repository
-git clone https://github.com/your-username/moodify.git
+git clone https://github.com/TaniyaKatigar/moodify.git
 
 cd moodify
 
